@@ -1,0 +1,23 @@
+<?php
+/**
+ * Configuration options for Bit.ly Datasource.
+ *
+ * Copy the $bitly property to app/config/database.php and register your
+ * account [http://bit.ly/account/register] then add your login and apiKey to
+ * the config.
+ *
+ * @author Neil Crookes <neil@neilcrookes.com>
+ * @link http://www.neilcrookes.com
+ * @copyright (c) 2010 Neil Crookes
+ * @license MIT License - http://www.opensource.org/licenses/mit-license.php
+ */
+class BITLY_CONFIG {
+
+  var $bitly = array(
+    'datasource' => 'Bitly.BitlySource',
+    'login' => '',
+    'apiKey' => '',
+  );
+
+}
+?>
